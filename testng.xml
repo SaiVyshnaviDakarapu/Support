@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="IRCTC" parallel="false" preserve-order="true"
+	verbose="2">
+	<test name="IRCTC Test Suite">
+
+		<classes>
+
+			<class name="com.irctc.tests.IrctcHomePageTests" />
+			<class name="com.irctc.tests.IrctcLoginTests" />
+			<class name="com.irctc.tests.IrctcHolidaysTests" />
+			<class name="com.irctc.tests.IrctcStaysTests" />
+			<class name="com.irctc.tests.IrctcLoyaltyAndMealsTests" />
+			<class name="com.irctc.tests.IrctcAtStationsAndMoreTests" />
+		</classes>
+	</test>
+</suite>
